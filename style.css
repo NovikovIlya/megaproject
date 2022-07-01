@@ -1,0 +1,344 @@
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* lato-700 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('fonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/lato-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* lato-900 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Intro style start */
+
+.body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+.img {
+    min-width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.wrapper-full {
+    max-width: 1262px;
+    margin: 0 auto;
+    
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    position: relative;
+}
+
+.section-title::after {
+    display: block;
+    content: '';
+    width:  253px;
+    height:  3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+}
+
+
+.header {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 82px;
+    list-style-type: none;
+}
+.header_item:last-child {
+    margin-right: 0px;
+}
+.header_link {
+    font-size: 18px;
+    line-height: 24px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: .75;
+}
+
+/* Header styles end */
+
+
+/* Intro style start */
+
+.intro {
+    min-height: 100vh;
+    background: url(icon/урок1-2/background/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+    padding-bottom: 223px;
+}
+
+.intro_title {
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color:white;
+    margin-bottom: 22px;
+}
+
+
+.intro_subtitle {
+    max-width: 546px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 59px;
+    margin-bottom: 59px;
+}
+
+.search-form_wrap {
+    border: 0;
+}
+
+.search-form_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-from_field {
+    width: 297px;
+    background: transparent url(icon/oval/Oval.svg) no-repeat left 7px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.search-from_field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.search-form_submit {
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background: #187dff;
+    border: 0;
+}
+
+.search-form_submit:hover,  .search-form_submit:focus, .search-form_submit:active {
+    background: #000;
+}
+    /* Intro style end */
+
+
+    /* Benefits styles */
+
+.benefits {
+    margin-bottom: 131px;
+}
+
+.benefits_wrap  {
+    max-width: 1262px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+
+.benefits_title {
+    width: 84%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: #fff;
+}
+
+.benefits_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding: 0 100px 0 100px;
+    
+} 
+
+.benefits_card {
+    grid-column: span 1;
+    margin-bottom: 112px;
+}
+
+.benefits_card-pic {
+    max-width: 66px;
+    margin-bottom: 37px;
+}
+
+.benefits_card-thumb {
+    display: block;
+}
+
+.benefits_card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 37px;
+}
+
+.benefits_card-desc {
+    margin-bottom: 39px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.benefits_card-more {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    margin-bottom: 39px;
+    text-decoration: none;
+}
+    /* Benefits styles end */
+
+    /* Places styles start */
+.places {
+    margin-bottom: 131px;
+}
+
+.places_caption {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 26px 0;
+}
+
+.places_title {
+    margin-right: 15px  ;
+}
+
+.places_wiew-all {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.places_cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.places_card {
+    position: relative;
+    overflow: hidden;
+}
+
+.places_card::after {
+}
+
+.places_card-pic-lg:hover { 
+    transform: scale(1.05);
+}
+
+.places_card-pic-sm:hover { 
+    transform: scale(1.05);
+}
+
+.places_card-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 27px;
+    left: 29px;
+    z-index: 3;
+}
+
+.places_card_size_lg {
+    grid-column: span 3;
+}
+
+.places_card_size_sm {
+    grid-column: span 2;
+}
+
+
+
+
+
+.places_card-pic-lg {
+    width: 100%;
+    transition: .15s all;
+}
+
+.places_card-pic-sm {
+    width: 100%;
+    transition: .15s all;
+}
+     /* Places styles end */ 
