@@ -340,3 +340,36 @@
     transition: .15s all;
 }
      /* Places styles end */ 
+
+    
+
+
+    /* Tours styles start */ 
+.tours {
+    margin-bottom: 139px;
+}  
+
+.tours_tour {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 108px;
+    align-items: center;
+}
+
+.tour_title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour_desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour_more {
+    text-decoration: none;
+}
+    /* Tours styles end */ 
