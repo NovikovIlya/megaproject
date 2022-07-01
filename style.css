@@ -296,8 +296,7 @@
     overflow: hidden;
 }
 
-.places_card::after {
-}
+
 
 .places_card-pic-lg:hover { 
     transform: scale(1.05);
