@@ -354,6 +354,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 0 108px;
     align-items: center;
+    margin-bottom: 77px;
 }
 
 .tour_title {
@@ -361,6 +362,10 @@
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 85px;
+}
+
+.tour_info {
+    padding-left: 47px;
 }
 
 .tour_desc {
@@ -373,3 +378,7 @@
     text-decoration: none;
 }
     /* Tours styles end */ 
+
+    /* Top styles start */ 
+
+    /* Top styles end */ 
