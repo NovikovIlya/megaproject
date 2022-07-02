@@ -355,9 +355,9 @@
     grid-gap: 0 108px;
     align-items: center;
     margin-bottom: 77px;
-    position: relative;
-    overflow: hidden;
 }
+
+
 
 .tour_title {
     font-weight: 500;
@@ -383,7 +383,14 @@
 .tours_pic:hover { 
     transform: scale(1.05);
     transition: .15s all;
-    width: 100%;
+  
+}
+
+
+
+   
+    
+    
 
     /* Tours styles end */ 
 
@@ -397,5 +404,36 @@
 
 .top_title {
     margin: 0 0 54px 0;
+}
+
+.top_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 57px;
+}
+
+
+.top_card-pic {
+    position: relative;
+}
+
+.top_card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+    box-sizing: border-box;
+}
+
+.top_card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
     /* Top styles end */ 
