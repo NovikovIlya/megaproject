@@ -355,6 +355,8 @@
     grid-gap: 0 108px;
     align-items: center;
     margin-bottom: 77px;
+    position: relative;
+    overflow: hidden;
 }
 
 .tour_title {
@@ -377,8 +379,23 @@
 .tour_more {
     text-decoration: none;
 }
+
+.tours_pic:hover { 
+    transform: scale(1.05);
+    transition: .15s all;
+    width: 100%;
+
     /* Tours styles end */ 
 
-    /* Top styles start */ 
 
+
+
+    /* Top styles start */ 
+.top {
+    margin: 0 0 86px 0;
+}
+
+.top_title {
+    margin: 0 0 54px 0;
+}
     /* Top styles end */ 
