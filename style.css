@@ -40,6 +40,7 @@
 .img {
     min-width: 100%;
     height: auto;
+    widht:100%;
 }
 
 .wrapper{
@@ -587,26 +588,33 @@
 @media screen and (max-width: 960px) {
     .search-form_field {
         margin-bottom: 25px;
+        margin-right: 0;
     }  
     .search-form_submit {
         margin-bottom: 25px;
         padding-right: 25px;
     }
-    .header {
-        width: 768px;
-    }
     .top_cards {
         grid-template-columns: 1fr;
         width: 768px;
-    }
-    .top_card {
-        box-sizing: border-box;
     }
     .tours_tour {
         grid-template-columns: 1fr;
     }
     .top_card-stats {
         width: 386px;
+    }
+    .header_item {
+        margin-right: 0;
+    }   
+    .places_title {
+        margin-right: 0 ;
+    }
+    .top_cards {
+        width: 100%;
+    }
+    .benefits_title {
+        padding: 0px;
     }
 }
 
@@ -671,6 +679,7 @@
     .header_nav-close-line:last-child {
         transform: translateY(-50%) rotate(-45deg);
     }
+
 }
 
     /* Media end*/ 
