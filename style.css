@@ -584,7 +584,38 @@
 
 
     /* Media start*/ 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
+    .search-form_field {
+        margin-bottom: 25px;
+    }  
+    .search-form_submit {
+        margin-bottom: 25px;
+        padding-right: 25px;
+    }
+    .header {
+        width: 768px;
+    }
+    .top_cards {
+        grid-template-columns: 1fr;
+        width: 768px;
+    }
+    .top_card {
+        box-sizing: border-box;
+    }
+    .tours_tour {
+        grid-template-columns: 1fr;
+    }
+    .top_card-stats {
+        width: 386px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .header_burger {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
     .header_burger {
         display: block;
     }
