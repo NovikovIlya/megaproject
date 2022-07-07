@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+        <!-- Header start-->
     <header class ="header">
         <div class="wrapper">
             <div class="header_wrapper">
@@ -18,21 +19,19 @@
                     </a>
                 </div>
 
-
-    <!-- Header start-->
                 <nav class="header_nav">
                     <ul class="header_list">
                         <li class="header_item">
-                            <a href="#!" class="header_link">Articles</a>
+                            <a href="#articles" class="header_link js-scroll">Articles</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Locations</a>
+                            <a href="#locations" class="header_link js-scroll">Locations</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Videos</a>
+                            <a href="#videos" class="header_link js-scroll">Videos</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Sign in</a>
+                            <a href="#sign-in" class="header_link js-scroll">Sign in</a>
                         </li>
                     </ul>
                     <div class="header_nav-close">
@@ -52,7 +51,7 @@
 
     <!-- Intro  start-->
     <main class="main">
-        <section class="intro">
+        <section class="intro" id="sign-in">
             <div class="wrapper">
                 <hi class="intro_title">
                     Discover amazing places in <br> Japan
@@ -166,10 +165,10 @@
 
 
     <!-- Tours start-->
-        <div class="tours">
+        <div class="tours" id="articles">
             <div class="wrapper-full">
 
-                <div class="tours_tour tour">
+                <div class="tours_tour tour" >
                     <div class="tours_pic">
                         <img src="image/tour1.jpg" alt="Prefecture in Focus: Tottori" class="tour_thumb">
                     </div>
@@ -197,7 +196,7 @@
         <!-- Tours end-->
 
         <!-- Top start-->
-        <section class="top">
+        <section class="top" id="locations">
             <div class="wrapper-full">
                 <h2 class="top_title section-title">Today top places to visit</h2>
             
@@ -329,7 +328,7 @@
         <!-- Top end-->
 
         <!-- Videos start-->
-        <div class="videos">
+        <div class="videos" id="videos">
             <div class="videos_wrapper">
                 <div class="video_item"></div>
                 <iframe class="video_element"  src="https://www.youtube.com/embed/URDXZSJZ2ME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
