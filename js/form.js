@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 			url: "sendform.php", // Путь к PHP обработчику sendform.php
 			data: form_data,
 			success: swal({
-				title: "Спасибо за заявку!",
+				title: "Thanks for sending!",
                 type: "success",
                 showConfirmButton: false,
                 timer: 2000
