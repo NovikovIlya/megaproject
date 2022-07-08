@@ -1,3 +1,24 @@
+"use strict"
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     const form = document.getElementById('form');
+//     form.addEventListener('submit',formSend);
+
+//     async function formSend(e) {
+//         e.preventDefaul();
+
+//         let error = formValidate(form);
+//     }
+//     function formValidate(form) {
+//         let error = 0;
+//         let formReq = documentqueryCelectionAll('._req');
+
+//         for (let index = 0; index < formReg.length; index++) {
+//             const input = formReq[index];
+//         }
+//     }
+// });
+
 (function() {
     const header = document.querySelector('.header');
     window.onscroll = () => {
