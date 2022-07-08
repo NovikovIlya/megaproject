@@ -204,12 +204,12 @@
 }
 
 .search-form_info {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: grid;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    grid-template-columns: 1fr;
+    /* -ms-flex-wrap: wrap;
+        flex-wrap: wrap; */
+    /* grid-template-columns: 1fr; */
 }
 
 .search-from_field {
