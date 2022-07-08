@@ -16,6 +16,7 @@
     <meta name="msapplication-config" content="fav/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="sweetalert.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -69,12 +70,13 @@
                 <p class="intro_subtitle">
                     Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, 
                 </p>
-                <form action="#!">
+                <form action="post"  class="feedback-form">
                     <fieldset class="search-form_wrap">
                         <p class="search-form_info">
-                            <input type="text" class='search-from_field' placeholder="What would you like to do?" name="user-like-to-do" >
-                            <input type="text" class='search-from_field' placeholder="Where would you like to do?" name="user-like-to-go" >
-                            <button type="submit" class="search-form_submit">Search</button>
+                            <input type="text" class='feedback-form__input feedback-form__name' placeholder="Enter your name" name="name" >
+                            <input type="text" class='feedback-form__input feedback-form__tel' placeholder="Enter your phone" name="phone" >
+                            <input type="text" class='mail__search-from_field_req' placeholder="Enter your mail" name="mail" >
+                            <button type="submit" class="btn feedback-form__button">Search</button>
                         </p>
                     </fieldset>
                 </form>
@@ -412,6 +414,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
+    <script src="./js/form.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
